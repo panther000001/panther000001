@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleAnswer(id) {
+      const answer = document.getElementById(id);
+      answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Frequently Asked Questions (FAQ)</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="qualification.html">Qualification</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="achivement.html">Achievements</a></li>
+        <li><a href="moment.html">Best Moment</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="github.html">GitHub</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="404.html">404 Page</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Common Questions</h2>
+
+    <div class="question">
+      <h3 onclick="toggleAnswer('answer1')">What is your major?</h3>
+      <p id="answer1" style="display:none;">I am majoring in Computer Science and Engineering with a focus on Artificial Intelligence at Mandsaur University.</p>
+    </div>
+
+    <div class="question">
+      <h3 onclick="toggleAnswer('answer2')">What are your career goals?</h3>
+      <p id="answer2" style="display:none;">My goal is to become a skilled AI developer and contribute to projects that make a positive impact on society.</p>
+    </div>
+
+    <div class="question">
+      <h3 onclick="toggleAnswer('answer3')">What programming languages do you know?</h3>
+      <p id="answer3" style="display:none;">I am proficient in JavaScript, and have experience with HTML,and CSS</p>
+    </div>
+
+  </main>
+  <footer>
+    <p>&copy; 2024 My Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
