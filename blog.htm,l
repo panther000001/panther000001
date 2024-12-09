@@ -1,0 +1,63 @@
+[9:31 AM, 12/6/2024] Tulsiraj Ghatiya: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="qualification.html">Qualification</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="achivement.html">Achievements</a></li>
+        <li><a href="moment.html">Best Moment</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html">Blog</a
+[9:32 AM, 12/6/2024] Tulsiraj Ghatiya: <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="github.html">GitHub</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="404.html">404 Page</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Welcome to My Blog</h2>
+    <p>Here are some of my latest blog posts:</p>
+
+    <div class="post">
+      <h3>Introduction to Machine Learning</h3>
+      <p>Machine learning is a branch of artificial intelligence that allows computers to learn from data and make decisions without being explicitly programmed. In this blog post, I will share some foundational concepts of machine learning.</p>
+      <a href="post1.html">Read more</a>
+    </div>
+
+    <div class="post">
+      <h3>Web Development Basics</h3>
+      <p>Web development is a critical skill for any modern software engineer. This post introduces the basics of HTML, CSS, and JavaScript, and how they come together to create dynamic websites.</p>
+      <a href="post2.html">Read more</a>
+    </div>
+
+    <div class="post">
+      <h3>My Journey as a Computer Science Student</h3>
+      <p>In this post, I reflect on my journey as a computer science student at Mandsaur University and share some of the experiences and challenges I've faced along the way.</p>
+      <a href="post3.html">Read more</a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
